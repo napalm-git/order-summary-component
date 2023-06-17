@@ -119,3 +119,17 @@ body {
     }
   }
 }
+
+@media (max-width: 440px) {
+  body {
+    background-image: url("../images/pattern-background-mobile.svg");
+  }
+
+  .wrapper {
+    width: 330px;
+
+    & .payment {
+      width: 85%;
+    }
+  }
+}
