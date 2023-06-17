@@ -40,5 +40,10 @@ body {
     justify-content: space-between;
     width: 75%;
     gap: 10px;
+
+    & img {
+      height: 50px;
+      width: 50px;
+    }
   }
 }
