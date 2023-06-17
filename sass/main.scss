@@ -79,6 +79,11 @@ body {
       font-size: 14px;
       color: hsl(245, 75%, 52%);
       font-weight: 900;
+
+      &:active {
+        color: hsl(245, 83%, 68%);
+        text-decoration: none;
+      }
     }
   }
 
@@ -95,6 +100,10 @@ body {
     font-weight: 900;
     font-size: 0.875rem;
     text-align: center;
+
+    &:active {
+      background-color: hsl(245, 83%, 68%);
+    }
   }
 
   & .cancel {
@@ -104,5 +113,9 @@ body {
     margin-bottom: 3rem;
     font-weight: 900;
     font-size: 14px;
+
+    &:active {
+      color: hsl(223, 47%, 23%);
+    }
   }
 }

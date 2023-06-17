@@ -74,6 +74,10 @@ body {
   color: hsl(245, 75%, 52%);
   font-weight: 900;
 }
+.wrapper .payment a:active {
+  color: hsl(245, 83%, 68%);
+  text-decoration: none;
+}
 .wrapper button {
   height: 50px;
   width: 80%;
@@ -88,6 +92,9 @@ body {
   font-size: 0.875rem;
   text-align: center;
 }
+.wrapper button:active {
+  background-color: hsl(245, 83%, 68%);
+}
 .wrapper .cancel {
   text-decoration: none;
   color: hsl(223, 12%, 59%);
@@ -95,4 +102,7 @@ body {
   margin-bottom: 3rem;
   font-weight: 900;
   font-size: 14px;
+}
+.wrapper .cancel:active {
+  color: hsl(223, 47%, 23%);
 }/*# sourceMappingURL=main.css.map */
