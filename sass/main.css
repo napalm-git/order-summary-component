@@ -43,4 +43,7 @@ body {
 .wrapper .payment img {
   height: 50px;
   width: 50px;
+}
+.wrapper .payment .plan {
+  font-size: 17px;
 }/*# sourceMappingURL=main.css.map */
