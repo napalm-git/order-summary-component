@@ -59,7 +59,7 @@ body {
 .wrapper .payment .plan .annual-plan {
   color: hsl(223, 47%, 23%);
   font-weight: 900;
-  line-height: 1.7;
+  line-height: 2;
 }
 .wrapper .payment .left {
   display: flex;
