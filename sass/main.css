@@ -68,4 +68,31 @@ body {
 .wrapper .payment .left img {
   height: 50px;
   width: 50px;
+}
+.wrapper .payment a {
+  font-size: 14px;
+  color: hsl(245, 75%, 52%);
+  font-weight: 900;
+}
+.wrapper button {
+  height: 50px;
+  width: 80%;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  border: none;
+  border-radius: 15px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 0.875rem;
+  text-align: center;
+}
+.wrapper .cancel {
+  text-decoration: none;
+  color: hsl(223, 12%, 59%);
+  margin-top: 0.75rem;
+  margin-bottom: 3rem;
+  font-weight: 900;
+  font-size: 14px;
 }/*# sourceMappingURL=main.css.map */
