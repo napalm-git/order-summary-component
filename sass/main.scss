@@ -33,4 +33,12 @@ body {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
+
+  & .payment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    gap: 10px;
+  }
 }
