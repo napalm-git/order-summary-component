@@ -48,6 +48,12 @@ body {
 
     & .plan {
       font-size: 17px;
+
+      & .annual-plan {
+        color: hsl(223, 47%, 23%);
+        font-weight: 900;
+        line-height: 1.7;
+      }
     }
   }
 }

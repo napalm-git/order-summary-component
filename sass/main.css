@@ -46,4 +46,9 @@ body {
 }
 .wrapper .payment .plan {
   font-size: 17px;
+}
+.wrapper .payment .plan .annual-plan {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  line-height: 1.7;
 }/*# sourceMappingURL=main.css.map */
