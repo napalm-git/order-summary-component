@@ -34,17 +34,20 @@ body {
     border-top-right-radius: 15px;
   }
 
+  & .text {
+    padding: 0 2.5rem;
+    color: hsl(223, 12%, 59%);
+    margin-bottom: 2rem;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+
   & .payment {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 75%;
     gap: 10px;
-
-    & img {
-      height: 50px;
-      width: 50px;
-    }
 
     & .plan {
       font-size: 17px;
@@ -54,6 +57,16 @@ body {
         color: hsl(223, 47%, 23%);
         font-weight: 900;
         line-height: 1.7;
+      }
+    }
+
+    & .left {
+      display: flex;
+      gap: 15px;
+
+      & img {
+        height: 50px;
+        width: 50px;
       }
     }
   }
